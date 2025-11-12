@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+# E-Library 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![E-Biblio Website Preview](./public/pictures/library1.png)
 
-## Available Scripts
+A modern digital library application that allows users to discover, search, and manage their book collection with advanced features and user authentication.
 
-In the project directory, you can run:
+##  Description
 
-### `npm start`
+E-Library is a full-featured digital library platform that leverages the OpenLibrary API to provide access to millions of books. Users can search, discover, download and organize their reading materials.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+##  Tech Stack
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+| Technology | Purpose |
+|------------|---------|
+| **React.js** | Frontend framework and component-based architecture |
+| **Redux Toolkit** | State management for global application state |
+| **Axios** | HTTP client for API requests to OpenLibrary |
+| **Swiper JS** | Interactive book carousels and sliders |
+| **CSS3** | Custom styling and responsive design |
+| **OpenLibrary API** | Comprehensive book data and metadata |
 
-### `npm test`
+##  Key Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Advanced Search - Search books by title, author
+- Book Discovery - Browse books by categories and genres
+- Favorites System - Add/remove books to personal favorites
+- Download Options - Access book download links
+- User Authentication - Create account, login, and logout functionality
+- Fast Performance - Efficient state management with Redux Toolkit
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+##  Setup Instructions
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Prerequisites
+- Node.js 
+- npm or yarn package manager
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Installation & Local Development
 
-### `npm run eject`
+```bash
+# Clone the repository
+git clone https://github.com/ikramelfrnani/e-biblio.git
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# Navigate to project directory
+cd e-biblio
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Install dependencies
+npm install
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# Start the development server
+npm start
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# The application will open in your browser at http://localhost:3000
+```
+##  Author
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Ikram El Frnani**
+- **GitHub**: [@ikramelfrnani](https://github.com/ikramelfrnani)
+- **LinkedIn**: [Ikram El Frnani](https://linkedin.com/in/ikram-el-frnani-9314a2201)  
+- **Portfolio**: [ikramelfrnani.vercel.app](https://ikramelfrnani.vercel.app/)
