@@ -39,10 +39,10 @@ E-Library is a full-featured digital library platform that leverages the OpenLib
 
 ```bash
 # Clone the repository
-git clone https://github.com/ikramelfrnani/e-biblio.git
+git clone https://github.com/ikramelfrnani/e_library.git
 
 # Navigate to project directory
-cd e-biblio
+cd e_library
 
 # Install dependencies
 npm install
